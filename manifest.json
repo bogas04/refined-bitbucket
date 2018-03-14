@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Refined Bitbucket",
+  "version": "0.0.0",
+  "description": "Improves bitbucket experience",
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://bitbucket.org/*"],
+      "css": ["style.css"],
+      "js": ["script.js"]
+    }
+  ]
+}
