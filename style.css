@@ -1,0 +1,5 @@
+/* Disable merge button if approval count is 0 */
+.aui-buttons.approve[data-approval-count="0"] ~ .aui-buttons #fulfill-pullrequest {
+    pointer-events: none;
+    background-color: #9c9c9c;
+}
